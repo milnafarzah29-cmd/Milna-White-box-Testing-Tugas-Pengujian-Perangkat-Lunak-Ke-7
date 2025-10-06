@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.praktikum.whitebox.service.ServiceInventarisTest" time="6.559" tests="30" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\perangkat lunak\praktikum 2 whitebox\Praktikum Whitebox\target\test-classes;C:\perangkat lunak\praktikum 2 whitebox\Praktikum Whitebox\target\classes;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\5.19.0\mockito-core-5.19.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.19.0\mockito-junit-jupiter-5.19.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\admin\AppData\Local\Temp\surefire12820034252428378830\surefirebooter-20251006164123155_3.jar C:\Users\admin\AppData\Local\Temp\surefire12820034252428378830 2025-10-06T16-41-21_958-jvmRun1 surefire-20251006164123155_1tmp surefire_0-20251006164123155_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\perangkat lunak\praktikum 2 whitebox\Praktikum Whitebox\target\test-classes;C:\perangkat lunak\praktikum 2 whitebox\Praktikum Whitebox\target\classes;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.2\junit-jupiter-api-5.9.2.jar;C:\Users\admin\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-commons\1.9.2\junit-platform-commons-1.9.2.jar;C:\Users\admin\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.2\junit-jupiter-engine-5.9.2.jar;C:\Users\admin\.m2\repository\org\junit\platform\junit-platform-engine\1.9.2\junit-platform-engine-1.9.2.jar;C:\Users\admin\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.9.2\junit-jupiter-params-5.9.2.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-core\5.19.0\mockito-core-5.19.0.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar;C:\Users\admin\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\admin\.m2\repository\org\mockito\mockito-junit-jupiter\5.19.0\mockito-junit-jupiter-5.19.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\admin"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-07-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\perangkat lunak\praktikum 2 whitebox\Praktikum Whitebox"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\admin\AppData\Local\Temp\surefire12820034252428378830\surefirebooter-20251006164123155_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.8+9-LTS"/>
+    <property name="user.name" value="admin"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.8+9"/>
+    <property name="localRepository" value="C:\Users\admin\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\admin\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.8"/>
+    <property name="user.dir" value="C:\perangkat lunak\praktikum 2 whitebox\Praktikum Whitebox"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\PuTTY\;C:\Program Files\IBM\SPSS\Statistics\25\JRE\bin;D:\;C:\Program Files\apache-maven-3.9.11-bin;C:\Program Files\apache-maven-3.9.11-bin\apache-maven-3.9.11\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.8.9-hotspot\\bin;D:\Git\cmd;C:\Users\admin\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\admin\AppData\Local\Programs\Python\Python313\;C:\Users\admin\AppData\Local\Programs\Python\Launcher\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;C:\Microsoft VS Code\bin;C:\Program Files (x86)\Nmap;C:\Users\admin\AppData\Roaming\npm;C:\Users\admin\AppData\Local\GitHubDesktop\bin;D:\IntelliJ IDEA 2025.2.1\bin;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.8+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="cariProdukByKategori_Test" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="5.715">
+    <system-err><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build as described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org.mockito/org/mockito/Mockito.html#0.3
+WARNING: A Java agent has been loaded dynamically (C:\Users\admin\.m2\repository\net\bytebuddy\byte-buddy-agent\1.17.6\byte-buddy-agent-1.17.6.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+  <testcase name="cariProdukByKode_Present" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.023"/>
+  <testcase name="tambahProduk_SimpanFalse" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.018"/>
+  <testcase name="updateStok_InvalidInput" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.011"/>
+  <testcase name="tambahProduk_AlreadyExists" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.015"/>
+  <testcase name="hitungTotalNilaiInventaris_Test" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.027"/>
+  <testcase name="masukStok_InvalidInput" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.049"/>
+  <testcase name="updateStok_NotFound" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.025"/>
+  <testcase name="keluarStok_StokKurang" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.035"/>
+  <testcase name="updateStok_RepoFalse" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.033"/>
+  <testcase name="hitungTotalStok_Test" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.028"/>
+  <testcase name="tambahProduk_InvalidProduk" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.024"/>
+  <testcase name="masukStok_RepoFails" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.029"/>
+  <testcase name="tambahProduk_Success" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.019"/>
+  <testcase name="keluarStok_NotPresentOrInactive" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.02"/>
+  <testcase name="hapusProduk_NotFound" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.021"/>
+  <testcase name="masukStok_NotFoundOrInactive" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.019"/>
+  <testcase name="cariProdukByKode_InvalidKode" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.009"/>
+  <testcase name="hapusProduk_StokMasihAda" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.009"/>
+  <testcase name="getProdukStokHabis_Test" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.013"/>
+  <testcase name="hapusProduk_InvalidKode" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.007"/>
+  <testcase name="updateStok_Success" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.015"/>
+  <testcase name="keluarStok_InvalidInput" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.009"/>
+  <testcase name="keluarStok_RepoFails" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.02"/>
+  <testcase name="hapusProduk_Success" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.04"/>
+  <testcase name="hapusProduk_RepoFails" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.03"/>
+  <testcase name="keluarStok_Success" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.014"/>
+  <testcase name="getProdukStokMenipis_Test" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.014"/>
+  <testcase name="masukStok_Success" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.015"/>
+  <testcase name="cariProdukByNama_Test" classname="com.praktikum.whitebox.service.ServiceInventarisTest" time="0.007"/>
+</testsuite>
